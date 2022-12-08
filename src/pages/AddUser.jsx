@@ -50,7 +50,7 @@ const AddUser = () => {
         backgroundColor: "#FFFFFF",
         borderRadius: "12px",
       }}
-      className="mt-4 p-5"
+      className="mt-4 p-5 addSection"
     >
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="d-flex justify-content-evenly">
