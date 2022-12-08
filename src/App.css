@@ -1,0 +1,82 @@
+body {
+  background-color: #ebf0f4;
+}
+
+input {
+  width: 50%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ededed;
+  border: 2px solid #ededed;
+}
+
+select {
+  width: 50%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ededed;
+}
+
+button {
+  width: 50%;
+  height: 40px;
+  background-color: #a1e0ff;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid #a1e0ff;
+}
+
+input[type="search"] {
+  padding-right: 25px;
+  background: url("https://static.thenounproject.com/png/101791-200.png")
+    no-repeat right;
+  background-size: 30px;
+  background-color: #ededed;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+
+  display: flex !important;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+
+  height: 150px;
+  width: 270px;
+}
+
+ul {
+  list-style: none;
+  background-color: #fbfbfb;
+  border: 1px solid rgb(229, 215, 215);
+  border: 2px;
+}
+
+.weather {
+  background-color: #a1e0ff;
+  width: 60%;
+  border-radius: 23px;
+  color: #ffffff;
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    height: 70px !important;
+    margin-bottom: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  select {
+    width: 100%;
+  }
+}
